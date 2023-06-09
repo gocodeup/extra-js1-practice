@@ -3,13 +3,14 @@
 ## Instructions
 
 - #### You do `NOT` need to check out to another branch you can work off the `main` branch.
+- #### Write all your code in `solutions.js`
 
 ## Problems
 
 1. Create a function named `sum` that returns the sum of two numbers.
 
         sum(2, 3)  // Output: 5
-        sum(-45, -3);  // Output: 5
+        sum(7, -59);  // Output: -52
         sum() // Output: false
         sum("2", 2) // Output : false
         sum(false, 3) // Output: false
@@ -37,7 +38,9 @@
         checkEvenOrOdd("") // Output: false
         checkEvenOrOdd([]) // Output: false
 5. Create a function named `convertToFahrenheit` that converts a temperature from Celsius to Fahrenheit.
-
+         
+        convertToFahrenheit("") // Output: false
         convertToFahrenheit(20) // Output: 68
         convertToFahrenheit(-10) // Output: 14
+        convertToFahrenheit([1,2,3]) // Output: false
         
