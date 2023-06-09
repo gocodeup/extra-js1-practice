@@ -8,7 +8,7 @@
 
 1. Create a function named `sum` that returns the sum of two numbers.
 
-        isSum(2, 3)  // Output: 5
+        sum(2, 3)  // Output: 5
         sum(-45, -3);  // Output: 5
         sum() // Output: false
         sum("2", 2) // Output : false
